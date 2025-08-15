@@ -1,138 +1,117 @@
-Aplikasi Kalkulator Web Keren 🧮
-Ini adalah aplikasi kalkulator modern dan responsif yang dibuat dengan HTML, CSS, dan JavaScript. Tampilannya sengaja dirancang dengan tema gelap yang elegan agar nyaman di mata dan mudah digunakan oleh siapa saja.
+# Aplikasi Kalkulator Web
 
-Fitur-Fitur Unggulan
-Operasi Aritmatika Dasar: Tentu saja bisa untuk tambah, kurang, kali, dan bagi.
+Kalkulator modern dan responsif yang dibuat dengan HTML, CSS, dan JavaScript dengan tema gelap yang elegan dan antarmuka pengguna yang intuitif.
 
-Fungsi Tambahan:
+## Fitur
 
-Clear (AC) - Untuk mengosongkan layar dan memulai dari awal.
+- **Operasi Aritmatika Dasar**: Penjumlahan, pengurangan, perkalian, dan pembagian
+- **Fungsi Lanjutan**: 
+  - Clear (AC) - Reset kalkulator
+  - Delete (DEL) - Hapus karakter terakhir yang dimasukkan
+  - Persen (%) - Hitung persentase
+  - Dukungan desimal dengan tombol titik (.)
+- **Desain Responsif**: Bekerja dengan sempurna di desktop dan perangkat mobile
+- **UI Modern**: Tema gelap dengan latar belakang gradien dan interaksi yang halus
+- **Penanganan Error**: Menampilkan pesan kesalahan yang sesuai untuk perhitungan yang tidak valid
 
-Delete (DEL) - Salah ketik? Hapus satu karakter terakhir dengan mudah.
+## Desain
 
-Persentase (%) - Menghitung persen jadi lebih cepat.
+- **Skema Warna**: Tema gelap dengan tombol aksen oranye
+- **Tata Letak**: Tata letak tombol berbasis grid untuk jarak yang optimal
+- **Tipografi**: Font Helvetica Neue yang bersih untuk keterbacaan yang sangat baik
+- **Elemen Interaktif**: Tombol menjadi lebih terang saat diklik/fokus untuk umpan balik visual
 
-Desimal (.) - Mendukung perhitungan angka desimal.
+## Struktur File
 
-Desain Responsif: Tampilannya akan menyesuaikan secara otomatis, baik dibuka di laptop maupun di HP.
+```
+calculator/
+├── index.html          # Struktur HTML utama
+├── style.css           # Styling dan desain responsif
+├── script.js           # Fungsionalitas dan logika kalkulator
+└── README.md           # Dokumentasi proyek
+```
 
-Tampilan Modern: Mengusung tema gelap dengan latar belakang gradien dan interaksi yang mulus.
+## Teknologi yang Digunakan
 
-Penanganan Error: Jika ada perhitungan yang tidak valid, kalkulator akan menampilkan pesan error yang jelas.
+- **HTML5**: Struktur semantik dan aksesibilitas
+- **CSS3**: Styling modern dengan tata letak Grid dan properti kustom
+- **Vanilla JavaScript**: Fungsionalitas interaktif tanpa ketergantungan eksternal
 
-Desain
-Skema Warna: Tema gelap dengan tombol-tombol operasi berwarna oranye sebagai aksen yang menarik.
+## Memulai
 
-Tata Letak: Tombol-tombol disusun menggunakan grid agar rapi dan mudah dijangkau jari.
+1. **Clone atau Unduh** file-file proyek
+2. **Buka** `index.html` di browser web Anda
+3. **Mulai menghitung** langsung - tidak perlu instalasi!
 
-Tipografi: Menggunakan font Helvetica Neue yang bersih dan sangat mudah dibaca.
+## Cara Penggunaan
 
-Elemen Interaktif: Tombol akan terlihat lebih terang saat diklik atau disentuh, memberikan umpan balik visual yang jelas.
+### Operasi Dasar
+- Klik tombol angka (0-9) untuk memasukkan angka
+- Klik tombol operasi (+, -, *, /) untuk melakukan perhitungan
+- Tekan = untuk mengeksekusi perhitungan
+- Gunakan . untuk angka desimal
 
-Struktur File
-Struktur proyek ini sangat sederhana dan mudah dipahami:
+### Fungsi Khusus
+- **AC**: Hapus semua input dan reset ke 0
+- **DEL**: Hapus karakter terakhir yang dimasukkan
+- **%**: Hitung nilai persentase
 
-kalkulator/
-├── index.html         # Kerangka utama halaman kalkulator
-├── style.css          # Untuk mempercantik tampilan dan desain responsif
-├── script.js          # Otak dari semua fungsi dan logika kalkulator
-└── README.md          # Dokumen yang sedang Anda baca ini
-
-Teknologi yang Digunakan
-Proyek ini dibangun murni menggunakan teknologi web dasar, tanpa framework atau library dari luar.
-
-HTML5: Untuk struktur konten yang semantik dan aksesibel.
-
-CSS3: Untuk styling modern, termasuk layout Grid dan custom properties.
-
-JavaScript Murni: Untuk semua fungsionalitas interaktif kalkulator.
-
-Cara Memulai
-Sangat mudah untuk menjalankannya!
-
-Unduh atau Clone semua file proyek ini ke komputermu.
-
-Buka file index.html di browser favoritmu (seperti Chrome, Firefox, dll.).
-
-Langsung berhitung! Tidak perlu instalasi apa pun.
-
-Cara Penggunaan
-Operasi Dasar
-Klik tombol angka (0-9) untuk memasukkan angka.
-
-Klik tombol operasi (+, -, *, /) untuk memilih perhitungan.
-
-Tekan = untuk melihat hasilnya.
-
-Gunakan tombol . untuk angka desimal.
-
-Fungsi Spesial
-AC: Menghapus semua input dan mengembalikan layar ke 0.
-
-DEL: Menghapus satu karakter terakhir yang dimasukkan.
-
-%: Mengubah angka menjadi bentuk persen (misalnya, 50 menjadi 0.5).
-
-Contoh
-Penjumlahan biasa: 5 + 3 = 8
-Perhitungan desimal: 12.5 * 2 = 25
+### Contoh Penggunaan
+```
+Penjumlahan Dasar: 5 + 3 = 8
+Perhitungan Desimal: 12.5 * 2 = 25
 Persentase: 50 % = 0.5
+```
 
-Kompatibilitas Browser
-Kalkulator ini berjalan lancar di browser-browser modern berikut:
+## Kompatibilitas Browser
 
-✅ Chrome 60+
+- ✅ Chrome 60+
+- ✅ Firefox 55+
+- ✅ Safari 12+
+- ✅ Edge 79+
 
-✅ Firefox 55+
+## Kustomisasi
 
-✅ Safari 12+
-
-✅ Edge 79+
-
-Kustomisasi
-Merasa bosan dengan warnanya? Kamu bisa mengubahnya dengan sangat mudah!
-
-Mengganti Warna
-Buka file style.css dan ubah nilai pada bagian :root:
-
+### Mengubah Warna
+Edit properti kustom CSS di `style.css`:
+```css
 :root {
-  --primary-bg: #000000;    /* Latar belakang kalkulator */
-  --accent-color: #ff9501;   /* Warna oranye untuk tombol operasi */
-  --secondary-color: #a6a6a6; /* Warna abu-abu untuk tombol utilitas */
+  --primary-bg: #000000;      /* Latar belakang kalkulator */
+  --accent-color: #ff9501;    /* Tombol operasi oranye */
+  --secondary-color: #a6a6a6; /* Tombol utilitas abu-abu */
 }
+```
 
-Menambah Fungsi Baru
-Tambahkan tombol baru di file index.html.
+### Menambahkan Fungsi Baru
+1. Tambahkan tombol di `index.html`
+2. Beri style di `style.css`
+3. Implementasikan logika di `script.js`
 
-Beri gaya pada tombol tersebut di style.css.
+## Masalah yang Diketahui
 
-Tuliskan logikanya di script.js.
+- Angka yang sangat panjang mungkin meluap area tampilan
+- Ekspresi matematika kompleks tidak didukung (gunakan tanda kurung dengan hati-hati)
 
-Masalah yang Diketahui
-Angka yang terlalu panjang mungkin akan keluar dari area layar.
+## Pengembangan Masa Depan
 
-Belum mendukung ekspresi matematika yang kompleks (misalnya yang menggunakan banyak kurung).
+- [ ] Fungsi kalkulator saintifik
+- [ ] Riwayat perhitungan
+- [ ] Dukungan input keyboard
+- [ ] Opsi kustomisasi tema
+- [ ] Fungsi memori (M+, M-, MR, MC)
 
-Rencana Pengembangan Selanjutnya
-Beberapa fitur yang mungkin akan ditambahkan di masa depan:
+## Kontribusi
 
-[ ] Fungsi kalkulator ilmiah (sin, cos, tan, dll.).
+Jangan ragu untuk mengirimkan masalah dan permintaan peningkatan! Kontribusi sangat diterima.
 
-[ ] Riwayat perhitungan.
+## Lisensi
 
-[ ] Dukungan input dari keyboard.
+Proyek ini adalah open source dan tersedia di bawah [Lisensi MIT](LICENSE).
 
-[ ] Pilihan untuk mengganti tema.
+## Kredit
 
-[ ] Fungsi memori (M+, M-, MR, MC).
+Dibuat dengan teknologi web modern dan terinspirasi oleh desain kalkulator iOS.
 
-Ingin Berkontribusi?
-Jangan ragu untuk melaporkan masalah atau mengajukan permintaan fitur baru! Kontribusi dalam bentuk apa pun sangat diterima.
+---
 
-Lisensi
-Proyek ini bersifat open source dan tersedia di bawah Lisensi MIT.
-
-Kredit
-Dibuat dengan teknologi web modern dan terinspirasi dari desain kalkulator iOS.
-
-Selamat menghitung! ✨
+**Selamat menghitung!** 🧮
